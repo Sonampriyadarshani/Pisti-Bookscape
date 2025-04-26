@@ -19,7 +19,7 @@ import author1 from "../assets/riyan.jpg"
 import author2 from "../assets/pisti.jpg"
 import author3 from "../assets/ariona.jpg"
 import author4  from "../assets/banhi.jpg"
-import author5  from "../assets/Jayadev.jpg"
+import author5  from "../assets/jayadev.jpg"
 
 import author6 from "../assets/suman.jpg"
 import author7 from "../assets/sonam.jpg"
