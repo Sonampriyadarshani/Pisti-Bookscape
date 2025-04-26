@@ -17,20 +17,20 @@ import book15 from "../assets/book-15.jpg";
 // Author image
 import author1 from "../assets/riyan.jpg"
 import author2 from "../assets/pisti.jpg"
-import author3 from "../assets/Ariona.jpg"
-import author4  from "../assets/Banhi.jpg"
+import author3 from "../assets/ariona.jpg"
+import author4  from "../assets/banhi.jpg"
 import author5  from "../assets/Jayadev.jpg"
 
-import author6 from "../assets/Suman.jpg"
+import author6 from "../assets/suman.jpg"
 import author7 from "../assets/sonam.jpg"
 import author8 from "../assets/zisika.jpg"
 
 import author9 from "../assets/priyanka.jpg"
 import author10 from "../assets/punam.jpg"
 import author11 from "../assets/samita.jpg"
-import author12 from "../assets/Saijya.jpg"
-import author13 from "../assets/Moumakal.jpg"
-import author14 from "../assets/Simran.jpg"
+import author12 from "../assets/saijya.jpg"
+import author13 from "../assets/moumakal.jpg"
+import author14 from "../assets/simran.jpg"
 
 const initialState = {
   items: [
