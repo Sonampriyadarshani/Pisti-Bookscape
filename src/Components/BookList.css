@@ -1,0 +1,99 @@
+/* Container for the whole section */
+.featured-books {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+/* Heading with animation */
+.inspiration-heading {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #2c2c2c;
+  animation: fadeSlideUp 1s ease-out forwards;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+/* Book grid layout */
+.book-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+/* Book cover image */
+.book-img {
+  width: 150px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.book-img:hover {
+  transform: scale(1.05);
+}
+
+/* Animation keyframes */
+@keyframes fadeSlideUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Author Marquee Styles */
+.author-marquee-container {
+  overflow: hidden;
+  width: 100%;
+  margin: 40px 0;
+}
+
+.author-marquee {
+  display: flex;
+  animation: scrollLeft 20s linear infinite;
+  gap: 30px;
+  padding: 10px 0;
+  align-items: center;
+}
+
+.author-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #ddd;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+.author-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  white-space: nowrap;
+  flex: 0 0 auto;
+}
+
+.author-name {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #333;
+  font-weight: 500;
+}
+
+
+/* Marquee animation keyframes */
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

@@ -1,0 +1,35 @@
+.book-details-container {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .book-details-img {
+    width: 300px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  }
+  
+  .book-details-info {
+    max-width: 600px;
+  }
+  .add-to-cart-btn {
+    margin-top: 1rem;
+    padding: 10px 20px;
+    background-color: #ff4081;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+  }
+  
+  .add-to-cart-btn:hover {
+    background-color: #f50057;
+  }
+    

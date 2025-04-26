@@ -1,0 +1,78 @@
+/* Navbar Container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ebf2f6;
+  border-radius: 15px;
+  padding: 20px 40px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* Logo */
+.navbar-logo {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+
+/* Left side of nav */
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Centered Menu */
+.navbar-menu {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.navbar-menu a,
+.navbar-menu span {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.navbar-menu a:hover,
+.navbar-menu span:hover {
+  color: #ff914d;
+}
+
+/* Active link */
+.navbar-menu .active {
+  color: #e85d04;
+  border-bottom: 2px solid #e85d04;
+  padding-bottom: 2px;
+}
+
+/* Right side of nav */
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Sign in Button */
+.navbar-button {
+  padding: 8px 16px;
+  background-color: #2eb1f3;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-button:hover {
+  background-color: #4fc1ed;
+}

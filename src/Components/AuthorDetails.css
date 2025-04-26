@@ -1,0 +1,31 @@
+.author-details-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .author-profile-img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .author-info {
+    max-width: 600px;
+  }
+  
+  .author-info h2 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .author-info p {
+    margin-bottom: 0.4rem;
+    line-height: 1.5;
+  }
+
+  
